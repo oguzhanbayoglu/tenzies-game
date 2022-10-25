@@ -6,6 +6,7 @@
 body {
   background-color: #4f7d82;
   height: 100vh;
+  overflow: hidden;
 }
 .container {
   background-color: #eae9e9;
