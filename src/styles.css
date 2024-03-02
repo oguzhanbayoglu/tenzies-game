@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   font-family: Albert Sans;
@@ -8,6 +12,11 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+#root {
+  height: 100%;
+}
+
 .container {
   background-color: #eae9e9;
   padding: 2rem;
@@ -35,8 +44,6 @@ p {
   gap: 0.3rem;
 }
 .die {
-  height: 6rem;
-  width: 6rem;
   background-color: #193437;
   margin-bottom: 0.5rem;
   border-radius: 2rem;
@@ -66,9 +73,4 @@ button {
 }
 button:active {
   background-color: #31a660;
-}
-
-canvas {
-  height: 100%;
-  width: 100%;
 }
